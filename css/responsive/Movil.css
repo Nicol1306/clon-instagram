@@ -1,0 +1,272 @@
+@import './Banner-left.css';
+@import './Header.css';
+@import './Posts.css';
+
+@media screen and (max-width: 480px) {
+    main .aside .navbar .Home span,
+    main .aside .navbar .Search span,
+    main .aside .navbar .Explore span,
+    main .aside .navbar .Reels span,
+    main .aside .navbar .Messages span,
+    main .aside .navbar .Notifications span,
+    main .aside .navbar .Create span,
+    main .aside .navbar .Profile span,
+    main .aside .navbar .More span,
+    main .aside .img-instagram svg{
+        display: none;
+    }
+
+    main .aside {
+        width: 5em;
+        rotate: 90deg;
+    }
+    
+    main .aside .navbar .Home svg,
+    main .aside .navbar .Search svg,
+    main .aside .navbar .Explore svg,
+    main .aside .navbar .Reels svg,
+    main .aside .navbar .Messages svg,
+    main .aside .navbar .Notifications svg,
+    main .aside .navbar .Create svg,
+    main .aside .navbar .Profile svg,
+    main .aside .navbar .More svg{
+        rotate: -90deg;
+        margin-left: 2em;
+        display: none;
+    }
+
+    .Header .Imagen-perfil{
+        margin-left: -20em;
+        margin-top: 17em;
+        width: 14em;
+        height: 14em;
+        border-radius: 50%;
+    }
+
+    .Header .Header-perfil .Header-1 h3{
+        margin-left: -4.9em;
+        font-size: 3.6em;
+        font-weight: normal;
+        margin-top: -.1em;
+    }
+
+    .Header .Descripcion-pagina .Escuela {
+        width: 40em;
+        font-size: 1.1em;
+        margin-left: -21.7em;
+    }
+
+    .Header .Descripcion-pagina .Link-robotica svg {
+        width: 1em;
+        height: 1em;
+    }
+    
+    .Header .Header-perfil .Following span{
+        margin-left: 45em;
+        margin-top: 10em;
+        padding: 2em;
+    }
+
+    .Header .Header-perfil .Following span {
+        margin-left: 1em;
+        padding: 2em 5em;
+    }
+
+    .Header .messages{
+        margin-left: .5em;
+        margin-top: 10em;
+    }
+
+    .Header .Header-perfil .Following {
+        margin-top: 2rem;
+    }
+
+    .Header .Header-perfil a,
+    .Header .Header-perfil .Following {
+        margin-top: 6.5em;
+    }
+
+    .Header .Header-perfil .Following {
+        margin-left: -24em;
+        margin-top: 8.9em;
+    }
+
+    .Header .Header-perfil .messages {
+        padding: 2em 5em;
+        margin-top: 9em;
+    }
+
+    .Header .Header-perfil .Following span {
+        width: 3em;
+    }
+
+    .Header .Header-perfil svg {
+        display:  none;
+    }
+    
+    .Header .Cuentas-similares{
+        margin-top: 10em;
+    }
+
+    .Header .Opciones{
+        margin-left: -8em;
+        margin-top: 5em;
+    }
+
+    .Header .Escuela strong{
+        font-size: 2.2em;
+        margin-left: 1em;
+        width: 40em;
+    }
+
+    .Header .Descripcion-pagina .ONG {
+        margin-left: -12em;
+        font-size: 1.8em;
+        width: 35em;
+    }
+
+    .Header .Descripcion-pagina .ONG-descripcion {
+        font-size: 2.4em;
+        width: 24em;
+        margin-left: -9em;
+    }
+
+    .Header .Descripcion-pagina .ONG-descripcion > a {
+        font-size: 32px;
+    }
+
+    .Descripcion-pagina .Descripciones{
+        margin-left: -27em;
+        display: none;
+    }
+
+    .Descripcion-pagina .Escuela{
+        margin-left: -27em;
+        margin-top: 5em;
+    }
+
+    .Descripcion-pagina .ONG{
+        margin-left: -25.1em;
+        margin-top: 1em;
+    }
+
+    .Descripcion-pagina .ONG-descripcion{
+        margin-left: -27em;
+        width: 20rem;
+    }
+
+    .Descripcion-pagina .Seguido-de{
+        margin-left: -22rem;
+    }
+
+    .Header .Descripcion-pagina .Seguido-de {
+        font-size: 2em;
+    }
+
+    .Header .Historias .historia-1 img,
+    .Header .Historias .historia-2 img {
+        width: 11.5em;
+    }
+
+    .Header .Historias .historia-3 img {
+        width: 9em;
+    }
+
+    .Header .Historias {
+        display: flex;
+        gap: 4em;
+    }
+
+    .Header .Historias .historia-1 p strong,
+    .Header .Historias .historia-2 p strong,
+    .Header .Historias .historia-3 p strong {
+        font-size: 1.7em;
+    }
+
+    .Historias .historia-1{
+        margin-left: -27em;
+        margin-top: -2em;
+    }
+
+    .Historias .historia-2{
+        margin-top: -2em;
+        margin-left: -2.5em;
+    }
+
+    .Historias .historia-3{
+        margin-top: -1.55em;
+        margin-left: -2.5em;
+    }
+
+    .Post-general hr {
+        display: none;
+    }
+
+    .Post-general .after-post {
+        margin-left: 6em;
+        margin-top: 1.5em;
+        display: flex;
+        gap: 15em;
+    }
+
+    .Post-general .after-post .post span,
+    .Post-general .after-post .reels-post span,
+    .Post-general .after-post .tagged span {
+        display: none;
+    }
+
+    .Post-general .after-post .post svg,
+    .Post-general .after-post .reels-post svg,
+    .Post-general .after-post .tagged svg {
+        width: 3em;
+        height: 3em;
+    }
+
+    .Post-img {
+        margin-left: 3em;
+        margin-top: 1em;
+    }
+
+    .navbar-movil {
+        display: block;
+        position: fixed;
+        display: flex;
+        gap: 4em;
+        margin-top: 2.5em;
+        border-top: .7px solid #363636;
+        padding-top: 1em;
+        margin-left: 5em;
+    }
+
+    .navbar-movil .Notifications {
+        margin-left: -1em;
+    }
+
+    .navbar-movil .Create {
+        margin-left: -3em;
+    }
+
+    .navbar-movil .Home svg,
+    .navbar-movil .Search  svg,
+    .navbar-movil .Explore svg,
+    .navbar-movil .Reels svg,
+    .navbar-movil .Messages svg,
+    .navbar-movil .Notifications svg,
+    .navbar-movil .Create svg,
+    .navbar-movil .Profile img {
+        width: 3em;
+        height: 3em;
+        object-fit: cover;
+    }
+
+    .navbar-movil .Home span,
+    .navbar-movil .Search  span,
+    .navbar-movil .Explore span,
+    .navbar-movil .Reels span,
+    .navbar-movil .Messages span,
+    .navbar-movil .Notifications span,
+    .navbar-movil .Create span,
+    .navbar-movil .Profile span {
+        display: none;
+    }
+}
